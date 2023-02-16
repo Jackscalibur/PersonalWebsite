@@ -1,7 +1,6 @@
 # Personal Website
 
-This is the source code for my personal website. It is built using the Flask framework.
-
+This is the source code for my personal website. It is built using the Flask framework - because I want to get better with Python and because it allows me to finally create a website to show off who I am!
 ## Installation
 
 - TODO
