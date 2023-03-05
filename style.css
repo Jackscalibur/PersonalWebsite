@@ -1,4 +1,15 @@
 body {
-    background-color: black;
+    background-color: blue;
     color: white;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+}
+
+.top-content {
+    text-align: center;
 }
