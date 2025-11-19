@@ -3,37 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackson's Portfolio</title>
-    <!-- Link to CSS -->
+    <title>Jackson Cowdrey | Security Engineer</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="scanline"></div>
     <header>
-        <h1>Welcome to my website!</h1>
+        <nav>
+            <div class="logo">JC_SEC</div>
+            <ul>
+                <li><a href="#home">~/home</a></li>
+                <li><a href="#projects">~/projects</a></li>
+                <li><a href="#blog">~/blog</a></li>
+                <li><a href="#contact">~/contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <section id="about-me">
-            <h2>About Me</h2>
-            <p>Hello! My name is Jackson Cowdrey, and I am a passionate security engineer who also enjoys programming various types of tools and applications, especially ones that assist me in my work.</p>
-            <p>Learning about new technologies and improving my skills is something I truly enjoy doing on a daily basis.</p>
+        <section id="home" class="hero">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <div class="terminal-body">
+                    <p class="prompt"><span class="user">jackson@sec-eng</span>:<span class="path">~</span>$ <span id="typing-text"></span><span class="cursor">_</span></p>
+                    <div id="intro-content" class="hidden">
+                        <p>Security Engineer. Developer. Tinkerer.</p>
+                        <p>Building tools to break things, and fixing things that are broken.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="projects">
-            <h2>My Projects</h2>
-            <p>Here are a few projects I've worked on:</p>
-            <ul>
-                <li><a href="https://github.com/Jackscalibur/rustopsy">Rustopsy</a>: A Rust-based tool for analyzing and visualizing system calls.</li>
-            </ul>
+            <h2 class="section-title">>> ./view_projects.sh</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects will be loaded here -->
+            </div>
+        </section>
+
+        <section id="blog">
+            <h2 class="section-title">>> cat recent_posts.txt</h2>
+            <div class="blog-list" id="blog-container">
+                <!-- Blog posts will be loaded here -->
+            </div>
         </section>
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            <p>If you'd like to get in touch, feel free to reach out to me via email at jackson.taylor.cowdrey@gmail.com</p>
+            <h2 class="section-title">>> ./contact_me.sh</h2>
+            <div class="contact-card">
+                <p>Initiate communication sequence:</p>
+                <a href="mailto:jackson.taylor.cowdrey@gmail.com" class="contact-link">jackson.taylor.cowdrey@gmail.com</a>
+                <div class="social-links">
+                    <a href="#" class="social-icon">[GitHub]</a>
+                    <a href="#" class="social-icon">[LinkedIn]</a>
+                    <a href="#" class="social-icon">[Twitter]</a>
+                </div>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <p>root@jackson-portfolio:~$ exit 0</p>
+        <p>&copy; 2025 Jackson Cowdrey</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
 </body>
-<footer>
-    <p>&copy; 2025 Jackson Cowdrey. All rights reserved.</p>
-</footer>
 </html>

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Rustopsy",
+        "description": "A Rust-based tool for analyzing and visualizing system calls. It provides a deep dive into process behavior and resource usage.",
+        "link": "https://github.com/Jackscalibur/rustopsy",
+        "tags": ["Rust", "System Programming", "Visualization"]
+    },
+    {
+        "title": "NetSentry",
+        "description": "A lightweight network intrusion detection system tailored for small home networks. Detects anomalies in real-time.",
+        "link": "#",
+        "tags": ["Python", "Network Security", "IDS"]
+    },
+    {
+        "title": "CipherVault",
+        "description": "A secure, offline password manager built with C++ and Qt. Focuses on local encryption and zero-knowledge architecture.",
+        "link": "#",
+        "tags": ["C++", "Qt", "Cryptography"]
+    }
+]
